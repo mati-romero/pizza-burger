@@ -1,0 +1,118 @@
+/*General*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAF5E6;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+h4 {
+	font-size: 10px;
+}
+
+/*Cabezera*/
+
+.cabezera {
+	background: #FAF9F4;
+	padding: 5px 10px;
+	border-bottom: 1px solid #2D2C2E;
+	position: fixed;
+	width: 100%;
+}
+
+.cabezera .barra {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cabezera .barra .barra-icono-menu i {
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.cabezera .barra h1 {
+	font-size: 30px;
+	color: #FD1F4A;
+}
+
+.cabezera .barra .barra-logo {
+	width: 90px;
+}
+
+.cabezera .barra .barra-logo img {
+	width: 100%;
+}
+
+/*Menu*/
+
+.menu {
+	padding: 10px;
+	border-bottom: 1px solid #2D2C2E;
+	border-right: 1px solid #2D2C2E;
+	width: 90%;
+	margin-top: 10px;
+	position: fixed;
+	top: 100px;
+	background: #FAF9F4;
+	display: none;
+	box-shadow: 2px 2px 10px grey;
+}
+
+.menu .perfil {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 90%;
+	border-bottom: 1px solid #FD1F4A;
+}
+
+.menu .perfil .foto {
+	width: 80px;
+
+}
+
+.menu .perfil .foto img {
+	width: 100%;	
+	border-radius: 50%;
+}
+
+.menu .perfil h3 {
+	margin-left: 10px;
+}
+
+.menu .menu-items {
+	margin-top: 10px;
+}
+
+.menu .menu-items a {
+	display: block;
+	text-decoration: none;
+	color: #2D2C2E;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.menu .menu-items a i {
+	color: #FD1F4A;
+}
