@@ -2,6 +2,7 @@
 
 * {
 	box-sizing: border-box;
+	max-width: 540px;
 }
 
 body {
@@ -30,10 +31,11 @@ h4 {
 
 .cabezera {
 	background: #FAF9F4;
-	padding: 5px 10px;
+	padding: 5px 15px;
 	border-bottom: 1px solid #2D2C2E;
 	position: fixed;
 	width: 100%;
+	top: 0;
 }
 
 .cabezera .barra {
@@ -114,5 +116,104 @@ h4 {
 }
 
 .menu .menu-items a i {
+	color: #FD1F4A;
+}
+
+/*Main*/
+
+.main {
+	margin-top: 150px;
+
+}
+
+/*Menu comida*/
+
+.main .menu-comida .menu-comida-categoria {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.main .menu-comida .menu-comida-categoria .categotia {
+	width: 30%;
+	margin: 0 5px;
+}
+
+.main .menu-comida .menu-comida-categoria .categotia .imagen {
+	width: 80px;
+	margin: auto;
+}
+
+.main .menu-comida .menu-comida-categoria .categotia .imagen img {
+	width: 100%;
+}
+
+.main .menu-comida .menu-comida-categoria .categotia h3 {
+	text-align: center;
+}
+
+.selec {
+	text-decoration: underline 5px #FD1F4A;
+}
+
+/*Menu comida lista*/
+
+#ListPizza {
+	display: block;
+}
+
+.main .menu-comida .menu-comida-lista {
+	margin-top: 50px;
+}
+
+.main .menu-comida .menu-comida-lista h2 {
+	text-align: center;
+	text-decoration: underline dotted 5px #FD1F4A;
+	color: #FD1F4A;
+}
+
+.main .menu-comida .menu-comida-lista .lista {
+	padding: 10px 0px 50px 0px;
+	display: none;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 10px;
+	border-bottom: 1px solid #2D2C2E;
+	margin-bottom: 30px;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida .imagen {
+	width: 40%;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida .imagen img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida .descripcion {
+	margin-left: 10px;
+	width: 60%;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida .descripcion h3 {
+	line-height: 0px;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida .descripcion p {
+	font-size: 12px;
+}
+
+.main .menu-comida .menu-comida-lista .lista .comida .descripcion a {
+	text-decoration: none;
+	font-size: 15px;
 	color: #FD1F4A;
 }
