@@ -2,7 +2,6 @@
 
 * {
 	box-sizing: border-box;
-	max-width: 540px;
 }
 
 body {
@@ -13,18 +12,13 @@ body {
 
 h2 {
 	font-size: 25px;
-}
-
-h2 {
-	font-size: 20px;
+	font-family: 'Lobster', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h3 {
 	font-size: 15px;
-}
-
-h4 {
-	font-size: 10px;
+	font-family: 'Lobster', cursive;
 }
 
 /*Cabezera*/
@@ -54,6 +48,7 @@ h4 {
 .cabezera .barra h1 {
 	font-size: 30px;
 	color: #FD1F4A;
+	font-family: 'Lobster', cursive;
 }
 
 .cabezera .barra .barra-logo {
@@ -113,6 +108,8 @@ h4 {
 	color: #2D2C2E;
 	font-size: 15px;
 	margin-bottom: 10px;
+	font-family: 'Lobster', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .menu .menu-items a i {
@@ -123,7 +120,6 @@ h4 {
 
 .main {
 	margin-top: 150px;
-
 }
 
 /*Menu comida*/
@@ -210,10 +206,62 @@ h4 {
 
 .main .menu-comida .menu-comida-lista .lista .comida .descripcion p {
 	font-size: 12px;
+	font-family: 'Lobster', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main .menu-comida .menu-comida-lista .lista .comida .descripcion a {
 	text-decoration: none;
 	font-size: 15px;
 	color: #FD1F4A;
+}
+
+/*Responsive*/
+
+@media(min-width: 768px) {
+
+	.cabezera {
+		padding: 5px 30px;
+	}
+
+	.cabezera .barra h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 55px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 35px;
+	}
+
+	.menu {
+		top: 170px;
+	}
+
+	.menu .menu-items a {
+		font-size: 35px;
+	}
+
+	.main {
+		margin-top: 210px;
+	}
+
+	.main .menu-comida .menu-comida-lista .lista .comida {
+		padding: 30px;
+	}
+
+	.main .menu-comida .menu-comida-lista .lista .comida .descripcion p {
+		font-size: 30px;
+	}
+
+	.main .menu-comida .menu-comida-lista .lista .comida .descripcion a {
+		font-size: 35px;
+	}
+
 }
